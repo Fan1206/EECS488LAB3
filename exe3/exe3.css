@@ -1,0 +1,93 @@
+.name
+{
+    color: darkgray;
+    font-size: 28pt;
+}
+    .content
+    {
+        max-width: 500px;
+        margin: auto;
+    }
+body 
+{
+    background-image: url(123.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    
+}
+.text
+{
+    color: white;
+    font-size : 14 pt;
+}
+.text2{
+    color:white;
+    font-size: 14 pt ;
+}
+.myphoto
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+a{
+    color: white;
+    font-size: 12 pt;
+}
+a:hover
+{
+    background-color: burlywood;
+    color:black;
+}
+
+.goto {
+   
+    background-color: white;
+     color: black;
+     border: 2px solid #4CAF50;
+     border-radius: 8px;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    
+  }
+  #gotoex1{
+    border: 2px solid #008CBA;
+  }
+  #gotoex2{
+    border: 2px solid #f44336;
+  }
+  #gotoex3{
+    border: 2px solid rgb(134, 134, 58);
+  }
+  #gotoex4{
+    border: 2px solid #555555;
+  }
+
+  #gotohm:hover {
+    background-color:  #4CAF50; /* Green */
+    color: white;
+  }
+  #gotoex1:hover {
+    background-color: #008CBA; /* Green */
+    color: white;
+  }
+  #gotoex2:hover {
+    background-color: #f44336; /* Green */
+    color: white;
+  }
+  #gotoex3:hover {
+    background-color: rgb(134, 134, 58); /* Green */
+    color: white;
+  }
+  #gotoex4:hover {
+    background-color: #555555; /* Green */
+    color: white;
+  }
+ 

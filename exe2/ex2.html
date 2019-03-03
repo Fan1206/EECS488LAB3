@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>EX 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="mystyle.css">
+    <script src="ex2.js"></script>
+
+    
+       
+</head>
+<body>
+    <center><div>
+        <div >
+            <button class = "goto" id ="gotohm"  onclick="window.location.href = 'https://people.eecs.ku.edu/~f994y556/EECS448/LAB3/exe5/index.html';">Main Page</button>
+            <button class = "goto" id= "gotoex1" onclick="window.location.href = 'https://people.eecs.ku.edu/~f994y556/EECS448/LAB3/exe1/ex1.html';">Exercise 1</button>
+            <button class = "goto" id= "gotoex2" onclick="window.location.href = 'https://people.eecs.ku.edu/~f994y556/EECS448/LAB3/exe2/ex2.html';">Exercise 2</button>
+            <button class = "goto" id= "gotoex3" onclick="window.location.href = 'https://people.eecs.ku.edu/~f994y556/EECS448/LAB3/exe3/exe3.html';">Exercise 3</button>
+            <button class = "goto" id= "gotoex4" onclick="window.location.href = 'https://people.eecs.ku.edu/~f994y556/EECS448/LAB3/exe4/ex4.html';">Exercise 4</button>
+    </div>
+        <p>My Photos</p>
+        <img class="mySlides" src="pic/DSC_7014.JPG" height="400" width="700">
+        <img class="mySlides" src="pic/DSC_6998.JPG" height="400" width="700">
+        <img class="mySlides" src="pic/DSC_7006.JPG" height="400" width="700">
+        <img class="mySlides" src="pic/DSC_7007.JPG" height="400" width="700">
+        <img class="mySlides" src="pic/DSC_7010.JPG" height="400" width="700">
+        
+    </div>
+        
+        <br><button class= "Previous" onclick="plusDivs(-1)"> Previous</button>
+        <button class = "Next" onclick="plusDivs(1)"> Next</button></center>
+        <script>
+                var slideIndex = 1;
+                showDivs(slideIndex);
+                
+                function plusDivs(n) {
+                  showDivs(slideIndex += n);
+                }
+                
+                function showDivs(n) {
+                  var i;
+                  var x = document.getElementsByClassName("mySlides");
+                  if (n > x.length) {slideIndex = 1} 
+                  if (n < 1) {slideIndex = x.length} ;
+                  for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none"; 
+                  }
+                  x[slideIndex-1].style.display = "block"; 
+                }
+            </script>
+</body>
+</html>

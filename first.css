@@ -1,0 +1,28 @@
+p
+{
+    background-color: red;
+    color: white;
+    font-family: arial;
+    font-size: 22 pt;
+}
+
+body 
+{
+    background-image: url(exe2/pic/DSC_6998.JPG);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll; 
+}
+
+
+a:hover
+{
+    background-color: red;
+    color: blue
+}
+
+p.halloween
+{
+    color: orange;
+    background-color: black;
+}
